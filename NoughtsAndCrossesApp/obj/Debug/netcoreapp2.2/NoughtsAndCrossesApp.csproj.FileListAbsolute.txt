@@ -1,0 +1,11 @@
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\bin\Debug\netcoreapp2.2\NoughtsAndCrossesApp.deps.json
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\bin\Debug\netcoreapp2.2\NoughtsAndCrossesApp.runtimeconfig.json
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\bin\Debug\netcoreapp2.2\NoughtsAndCrossesApp.runtimeconfig.dev.json
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\bin\Debug\netcoreapp2.2\NoughtsAndCrossesApp.dll
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\bin\Debug\netcoreapp2.2\NoughtsAndCrossesApp.pdb
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\obj\Debug\netcoreapp2.2\NoughtsAndCrossesApp.csprojAssemblyReference.cache
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\obj\Debug\netcoreapp2.2\NoughtsAndCrossesApp.csproj.CoreCompileInputs.cache
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\obj\Debug\netcoreapp2.2\NoughtsAndCrossesApp.AssemblyInfoInputs.cache
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\obj\Debug\netcoreapp2.2\NoughtsAndCrossesApp.AssemblyInfo.cs
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\obj\Debug\netcoreapp2.2\NoughtsAndCrossesApp.dll
+C:\TempCode\NoughtsAndCrosses\NoughtsAndCrossesApp\NoughtsAndCrossesApp\obj\Debug\netcoreapp2.2\NoughtsAndCrossesApp.pdb
