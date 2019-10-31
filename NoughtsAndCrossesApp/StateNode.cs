@@ -25,7 +25,7 @@ namespace NoughtsAndCrossesApp
         public Tuple<int, int> miniMax(char[,] state, bool isMaximizingPlayer)
         {
             gs.state = state;
-            minimaxValue = newMinimax(this, 0, isMaximizingPlayer, int.MinValue, int.MaxValue);
+            minimaxValue = GenerateStates(this, 0, isMaximizingPlayer, int.MinValue, int.MaxValue);
 
             var listOfMoves = children.FindAll(o => o.minimaxValue == minimaxValue);
             if (listOfMoves.Count > 1)
@@ -44,7 +44,7 @@ namespace NoughtsAndCrossesApp
             }
         }
 
-        private int newMinimax(StateNode root, int depth, bool isMaximizingPlayer, int alpha, int beta)
+        private int GenerateStates(StateNode root, int depth, bool isMaximizingPlayer, int alpha, int beta)
         {
             root.currentDepth = depth;
             if (Logic.WinCheck(root.gs) || depth >= maxDepth)
@@ -70,7 +70,7 @@ namespace NoughtsAndCrossesApp
                             root.children.Add(newNode);
 
                             newNode.action = Tuple.Create(i, j);
-                            newNode.minimaxValue = newMinimax(newNode, depth + 1, !isMaximizingPlayer, alpha, beta);
+                            newNode.minimaxValue = GenerateStates(newNode, depth + 1, !isMaximizingPlayer, alpha, beta);
                             root.minimaxValue = Math.Max(root.minimaxValue, newNode.minimaxValue);
                             alpha = Math.Max(alpha, root.minimaxValue);
 
@@ -102,7 +102,7 @@ namespace NoughtsAndCrossesApp
                             root.children.Add(newNode);
 
                             newNode.action = Tuple.Create(i, j);
-                            newNode.minimaxValue = newMinimax(newNode, depth + 1, !isMaximizingPlayer, alpha, beta);
+                            newNode.minimaxValue = GenerateStates(newNode, depth + 1, !isMaximizingPlayer, alpha, beta);
                             root.minimaxValue = Math.Min(root.minimaxValue, newNode.minimaxValue);
                             beta = Math.Min(beta, root.minimaxValue);
 

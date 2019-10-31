@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TempCode\\NoughtsAndCrosses\\NoughtsAndCrossesApp\\NoughtsAndCrossesApp.csproj",
+      "projectUniqueName": "C:\\TempCode\\TicTacToe\\NoughtsAndCrossesApp\\NoughtsAndCrossesApp.csproj",
       "projectName": "NoughtsAndCrossesApp",
-      "projectPath": "C:\\TempCode\\NoughtsAndCrosses\\NoughtsAndCrossesApp\\NoughtsAndCrossesApp.csproj",
+      "projectPath": "C:\\TempCode\\TicTacToe\\NoughtsAndCrossesApp\\NoughtsAndCrossesApp.csproj",
       "packagesPath": "C:\\Users\\Ryan.Jones\\.nuget\\packages\\",
-      "outputPath": "C:\\TempCode\\NoughtsAndCrosses\\NoughtsAndCrossesApp\\obj\\",
+      "outputPath": "C:\\TempCode\\TicTacToe\\NoughtsAndCrossesApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
